@@ -1,0 +1,55 @@
+# Configuration file for Predictive Maintenance Dashboard
+
+# Data Generation Settings
+data_generation:
+  start_date: "2023-01-01"
+  end_date: "2023-12-31"
+  frequency: "H"  # Hourly data
+  num_turbines: 3
+  output_path: "data/raw/"
+
+# Sensor Parameters
+sensors:
+  temperature:
+    normal_range: [45, 85]  # Celsius
+    failure_threshold: 95
+    noise_std: 2.0
+  vibration:
+    normal_range: [0.5, 3.0]  # mm/s
+    failure_threshold: 5.0
+    noise_std: 0.3
+  runtime_hours:
+    max_hours: 8760  # 1 year
+
+# Failure Simulation
+failure_simulation:
+  failure_probability: 0.01  # Daily failure probability (increased to 1%)
+  failure_duration_hours: [24, 168]  # 1-7 days
+  degradation_period_hours: 72  # 3 days warning
+
+# Machine Learning Settings
+ml_models:
+  forecast_periods: 30  # Days
+  confidence_interval: 0.95
+  rolling_window: 24  # Hours for rolling averages
+
+# Risk Assessment
+risk_assessment:
+  temperature_high_risk: 85
+  temperature_critical: 90
+  vibration_high_risk: 4.0
+  vibration_critical: 4.5
+  runtime_high_risk: 8000
+
+# Cost Parameters (USD)
+costs:
+  planned_maintenance: 50000
+  unplanned_maintenance: 150000
+  hourly_downtime_cost: 5000
+  energy_loss_per_hour: 1000
+
+# Dashboard Settings
+dashboard:
+  refresh_rate: 300  # 5 minutes
+  max_display_records: 1000
+  chart_height: 400 
