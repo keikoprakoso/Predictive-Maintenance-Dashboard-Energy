@@ -1,18 +1,18 @@
-# 🏭 Predictive Maintenance Dashboard (Energy Sector)
+# Predictive Maintenance Dashboard (Energy Sector)
 
-## 📋 Project Overview
+## Project Overview
 A comprehensive predictive maintenance solution for geothermal energy companies, designed to predict equipment failures, optimize maintenance schedules, and reduce operational costs through data-driven insights.
 
 **Developed by:** Keiko Rafi Ananda Prakoso  
 **Role:** Computer Science (AI) Student with Energy Sector Internship Experience
 
-## 🎯 Business Objectives
+## Business Objectives
 - **Predict Equipment Failures:** Use ML to forecast potential turbine failures
 - **Cost Optimization:** Compare planned vs unplanned maintenance costs
 - **Operational Excellence:** Reduce downtime and improve efficiency
 - **Data-Driven Decisions:** Provide actionable insights for stakeholders
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 ├── data/
@@ -31,7 +31,7 @@ A comprehensive predictive maintenance solution for geothermal energy companies,
 └── README.md
 ```
 
-## 🚀 Key Features
+## Key Features
 
 ### 1. Data Generation & Simulation
 - **3 Turbines** with realistic sensor data
@@ -56,7 +56,7 @@ A comprehensive predictive maintenance solution for geothermal energy companies,
 - **ROI Calculator:** Savings from predictive maintenance
 - **Maintenance Scheduling:** Optimal timing recommendations
 
-## 📊 Dashboard Components
+## Dashboard Components
 
 ### Main Dashboard
 - **Health Status Cards:** Current condition of each turbine
@@ -70,7 +70,7 @@ A comprehensive predictive maintenance solution for geothermal energy companies,
 - **Failure Prediction Timeline:** 30-day forecast
 - **Maintenance Recommendations:** Action items with priorities
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Python 3.8+**
 - **Pandas & NumPy:** Data manipulation
@@ -79,7 +79,7 @@ A comprehensive predictive maintenance solution for geothermal energy companies,
 - **Plotly:** Interactive visualizations
 - **Scikit-learn:** Machine learning utilities
 
-## 📈 Business Impact
+## Business Impact
 
 ### Cost Savings
 - **Reduced Downtime:** 40-60% reduction in unplanned outages
@@ -91,7 +91,7 @@ A comprehensive predictive maintenance solution for geothermal energy companies,
 - **Better Planning:** Data-driven maintenance scheduling
 - **Enhanced Efficiency:** Reduced energy waste and operational costs
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Install Dependencies:**
    ```bash
@@ -111,7 +111,7 @@ A comprehensive predictive maintenance solution for geothermal energy companies,
 ### 📁 Project Structure
 See [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) for detailed organization and file descriptions.
 
-## 📊 Data Storytelling
+## Data Storytelling
 
 This project demonstrates how predictive maintenance transforms traditional reactive maintenance into proactive, data-driven operations. By leveraging sensor data and machine learning, energy companies can:
 
@@ -119,13 +119,3 @@ This project demonstrates how predictive maintenance transforms traditional reac
 - **Optimize maintenance schedules** to minimize costs
 - **Improve operational efficiency** through data insights
 - **Support renewable energy** sustainability goals
-
-## 🔗 Portfolio Links
-- **GitHub:** [Repository Link]
-- **LinkedIn:** [Professional Profile]
-- **Portfolio:** [Personal Website]
-
----
-
-*Built with ❤️ for the energy sector's digital transformation journey* # Predictive-Maintenance-Dashboard-Energy
-# Predictive-Maintenance-Dashboard-Energy
